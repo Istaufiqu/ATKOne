@@ -1,0 +1,188 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 750px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.left-panel {
+    background: #0aa06e;
+    color: white;
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.left-panel h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.left-panel p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.left-panel button {
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.left-panel button:hover {
+    background: white;
+    color: #0aa06e;
+}
+
+.right-panel {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-panel h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.social-icons a {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #bbb;
+    font-size: 14px;
+    text-decoration: none;
+    color: #555;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    background: #0aa06e;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    background: #f0f0f0;
+    font-size: 14px;
+    outline: none;
+}
+
+/* Pastikan semua tombol memiliki desain yang sama */
+button.signup {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    background: #0aa06e;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+}
+
+button.signin {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 50px; /* Agar oval */
+    background: #0aa06e; /* Warna hijau */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+}
+
+/* Efek hover */
+button.signin:hover {
+    background: #087854; /* Hijau lebih gelap */
+}
+
+
+button.signup:hover, button.signin:hover {
+    background: #087854;
+}
+
+/* Notifikasi */
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Efek hover yang sama */
+button.signup:hover, button.signin:hover {
+    background: #087854;
+}
+
+/* Jika tombol nonaktif */
+button:disabled {
+    background: #ccc !important;
+    cursor: not-allowed !important;
+    opacity: 0.6 !important;
+}
+
+.notification.success {
+    background-color: #4CAF50; /* Hijau */
+}
+
+.notification.error {
+    background-color: #E74C3C; /* Merah */
+}
+
+/* Efek error input */
+.error-input {
+    border: 2px solid #E74C3C !important;
+    background-color: #ffebee;
+}

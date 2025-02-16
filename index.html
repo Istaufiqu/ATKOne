@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="assets/css/signin.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <h2>Belum Punya Akun?</h2>
+            <p>Silahkan daftar untuk membuat akun baru</p>
+            <a href="signup.html"><button type="button">Sign Up</button></a>
+        </div>
+        <div class="right-panel">
+            <h2>Masuk</h2>
+            <p>Silahkan masuk dengan akun Anda</p>
+            <form id="sign-in-form">
+                <input type="email" id="signin-email" name="email" placeholder="Email" required>
+                <input type="password" id="signin-password" name="password" placeholder="Password" required>
+                <button class="signin" type="submit" id="sign-in-button">Sign In</button>
+            </form>
+            <p id="error-message" style="color: red; text-align: center;"></p>
+        </div>
+    </div>
+    <script src="assets/js/signin.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+Array
+(
+    [signup-name] => taufiq ismail
+    [signup-email] => ajeng@gmail.com
+    [signup-phone] => 0812828282
+    [signup-password] => arkana01
+)
+Array
+(
+    [signup-name] => taufiq ismail
+    [signup-email] => taufiqmphbc@gmail.com
+    [signup-phone] => 081282820885
+    [signup-password] => Arkana01
+)
+Array
+(
+    [signup-name] => Nurul Kurnia
+    [signup-email] => nurulkurniaaudina@gmail.com
+    [signup-phone] => 083875535702
+    [signup-password] => Arkana01
+)
+Array
+(
+    [signup-name] => Khairan arkana ismail
+    [signup-email] => kharkan@gmail.com
+    [signup-phone] => 081382820885
+    [signup-password] => Arkana01
+)
+Array
+(
+    [signup-name] => Salman
+    [signup-email] => salman@gmail.com
+    [signup-phone] => 0893456012
+    [signup-password] => arkana01
+)
+Array
+(
+    [signup-name] => Salman
+    [signup-email] => salman@gmail.com
+    [signup-phone] => 0893456012
+    [signup-password] => arkana01
+)
+Array
+(
+    [signup-name] => Salman
+    [signup-email] => salman@gmail.com
+    [signup-phone] => 0893456012
+    [signup-password] => arkana01
+)
+Array
+(
+    [signup-name] => Adnan
+    [signup-email] => Adnan@gmail.com
+    [signup-phone] => 08978683109
+    [signup-password] => arkana01
+)
+Array
+(
+    [signup-name] => zebra
+    [signup-email] => zebra@gmail.com
+    [signup-phone] => 012334556
+    [signup-password] => arkana01
+)
+Array
+(
+    [signup-name] => kudanil
+    [signup-email] => kudanil@gmail.com
+    [signup-phone] => 8901212091291
+    [signup-password] => arkana01
+)
